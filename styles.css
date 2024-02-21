@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fd0000;
+}
+
+.container {
+    background: url('seu-fundo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Adicionando borda arredondada à imagem */
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.7); /* Adicionando uma camada escura sobre a imagem */
+    padding: 20px;
+    border-radius: 10px; /* Borda arredondada para o contêiner de conteúdo */
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+}
